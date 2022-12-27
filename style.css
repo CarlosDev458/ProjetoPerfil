@@ -15,14 +15,13 @@ main {
 }
 
 #sect-2 {
-    width: 900px; 
+    width: 900px;
     margin-left: 40px;
 }
 
 #sect-3 {
     display: flex;
     flex-wrap: wrap;
-    width: 900px;
     justify-content: space-around;
 }
 
@@ -141,7 +140,7 @@ main {
 }
 
 #box-1 {
-    
+
     display: flex;
     margin-bottom: 40px;
     background: #302F3D;
@@ -154,74 +153,91 @@ main {
     padding-right: 20px;
 }
 
+/* ssssssssssssssssssssssssssssss */
 #subd-1 {
-    width: 420px;
-    height: 186px;
+    padding: 25px;
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     margin-bottom: 40px;
+
+}
+
+.alinhar {
+    width: 380px;
+}
+
+#subd-1 div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#dv2 {
+    justify-content: space-between;
+
 }
 
 #subd-2 {
-    width: 420px;
-    height: 186px;
+    padding: 25px;
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     margin-bottom: 40px;
 }
 
+#subd-2 div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#dv4 {
+    justify-content: space-between;
+
+}
+
+
 #subd-3 {
-    width: 420px;
-    height: 186px;
+    padding: 25px;
+
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     margin-bottom: 40px;
+}
+
+#subd-3 div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#dv6 {
+    justify-content: space-between;
+
 }
 
 #subd-4 {
-    width: 420px;
-    height: 186px;
+    padding: 25px;
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     margin-bottom: 40px;
 }
 
-#subd-5 {
-    width: 420px;
-    height: 186px;
-    background: #302F3D;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-    margin-bottom: 40px;
+#subd-4 div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
 }
 
-#subd-6 {
-    width: 420px;
-    height: 186px;
-    background: #302F3D;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-    margin-bottom: 40px;
+#dv8 {
+    justify-content: space-between;
+
 }
 
-#subd-7 {
-    width: 420px;
-    height: 186px;
-    background: #302F3D;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-    margin-bottom: 40px;
-}
-
-#subd-8 {
-    width: 420px;
-    height: 186px;
-    background: #302F3D;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-    margin-bottom: 40px;
-}
