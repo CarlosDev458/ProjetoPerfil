@@ -11,10 +11,11 @@ main {
 #sect-1 {
     flex-direction: column;
     width: 348px;
+
 }
 
 #sect-2 {
-    width: 952px;
+    width: 900px; 
     margin-left: 40px;
 }
 
@@ -29,20 +30,21 @@ main {
 
 
 #caixa-1 {
-    width: 100%;
-    width: 348px;
-    height: 292px;
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     margin-bottom: 40px;
-    align-self: center;
+    padding: 50px;
     text-align: center;
 }
 
+#caixa-1 img {
+    width: 128px;
+    height: 128px;
+}
+
+
 #caixa-2 {
-    /*  width: 348px;
-    height: 348px; */
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -52,23 +54,14 @@ main {
 
 }
 
-#logos-2 a{
+#logos-2 {
+    padding: 20px;
+}
+
+#logos-2 a {
     display: flex;
     align-items: center;
-    gap: 5px;
-}
-
-
-
-#logos-2 img{
-    
-    
-    
-}
-
-#logos-2 p{
-
-     
+    gap: 10px;
 }
 
 
@@ -76,17 +69,64 @@ main {
 
 
 #caixa-3 {
-    width: 348px;
-    height: 208px;
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     margin-bottom: 40px;
+    display: flex;
+}
+
+#title-1 h1 {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#list-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    ;
+    padding: 7px;
+
 }
 
 #caixa-4 {
-    width: 348px;
-    height: 349px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+#title-2 {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+#title-3 {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+
+#list-1 p {
+    text-align: center;
+    background-color: aqua;
+    border-radius: px;
+    width: 95px;
+    padding-left: px;
+    border-radius: 20px;
+
+
+}
+
+
+
+#caixa-4 {
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -94,8 +134,6 @@ main {
 }
 
 #caixa-5 {
-    width: 348px;
-    height: 352px;
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -103,12 +141,17 @@ main {
 }
 
 #box-1 {
-    width: 900px;
-    height: 86px;
+    
+    display: flex;
     margin-bottom: 40px;
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #subd-1 {
