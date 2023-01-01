@@ -1,0 +1,139 @@
+body {
+    background-color: #22212C;
+    color: white;
+    margin: 40px;
+}
+
+main {
+    display: flex;
+}
+
+
+/* Style Section 1 */
+
+#screen_part_1 {
+    width: 348px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style de Todas as Caixas da Section 1 */
+
+.box {
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+/* Style Block 1 */
+
+#block_1 {
+    text-align: center;
+    padding: 30px;
+}
+
+#block_1_img_1 {
+    width: 128px;
+    height: 128px;
+
+}
+
+/* Style Block 2 */
+
+#block_2_itens {
+    padding: 20px;
+}
+
+#block_2 img {
+    width: 24px;
+    height: 24px;
+}
+
+
+#block_2 a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+/* Style Block 3 */
+
+#block_3_itens {
+    padding: 20px;
+}
+
+#block_3_list-1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#block_3_list-1 button {
+    text-align: center;
+    align-self: center;
+    width: 95px;
+    background: #ff1e00;
+    border-radius: 25px;
+    height: 25px;
+    margin-bottom: 13px;
+    border: #ff1e00;
+    color: white;
+}
+
+/* Style dos Tilulos dos Blocks 1,2 e 3 */
+
+.titles {
+    color: #837E9F;
+    font-size: 25px;
+}
+
+/* Style Block 4 */
+
+#block_4_itens {
+    padding: 20px;
+}
+
+.item_list {
+    list-style: none;
+}
+
+/* Style Block 5 */
+
+#block_5_itens {
+    padding: 20px;
+
+}
+
+/* Style Section 2 */
+
+#screen_part_2 {
+    width: 900px;
+    margin-left: 40px;
+}
+
+#container_1 {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#data_proj div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#data_proj {
+    padding: 25px;
+    width: 300px;
+}
+
+#all_space {
+    justify-content: space-between;
+    display: flex;
+}
